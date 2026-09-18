@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: OrderAndInventoryManagement
+
+  datasource:
+    url: jdbc:postgresql://localhost:5435/orderdb
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
+
+jwt:
+  secret-key: "oub9734gf[0q934ch13[erb9e8te8hc08whefhw0ehr0fhswh0rf08wf8hw804gfw0988hvw8h480wh8[[08h08[H80hf8h48hg903h48g"
